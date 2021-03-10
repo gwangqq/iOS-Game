@@ -28,15 +28,25 @@ struct ContentView: View {
                 Image("dealbutton")
                 Spacer()
                 HStack{
+                    Spacer()
                     VStack{
                         Text("Player")
+                            .font(.headline)
+                            .foregroundColor(Color.white)
                         Text("0")
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
                     }
-                    
+                    Spacer()
                     VStack{
                         Text("CPU")
+                            .font(.headline)
+                            .foregroundColor(Color.white)
                         Text("0")
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
                     }
+                    Spacer()
                 }
                 Spacer()
             }
